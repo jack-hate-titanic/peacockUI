@@ -1,0 +1,8 @@
+# 打包文件
+dist
+# 依赖包 
+node_modules
+# 文档
+docs
+# 测试文件
+example
