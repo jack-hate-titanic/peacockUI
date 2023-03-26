@@ -18,7 +18,8 @@
     "classnames": "^2.3.2",
     "fs-extra": "^11.1.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "vite-plugin-react-pages": "^4.0.2"
   },
   "devDependencies": {
     "@iconify-json/ic": "1.1.4",
