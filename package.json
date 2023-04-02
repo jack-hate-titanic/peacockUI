@@ -1,24 +1,32 @@
 {
-  "name": "my-components",
-  "private": true,
-  "version": "0.0.0",
+  "name": "@wsondq/peacock-ui",
+  "version": "0.1.0",
   "type": "module",
+  "main": "./dist/peacockui.js",
   "scripts": {
     "dev": "vite",
-    "build": "vite build && tsc",
     "preview": "vite preview",
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
     "docs:serve": "vitepress serve docs",
     "lint": "eslint . --ext .tsx,.js,.ts --fix",
     "format": "prettier --write \"./**/*.{html,tsx,js,json,md,less}\"",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "build": "pnpm build:components",
+    "build:all": "vite build",
+    "build:components": "esno ./scripts/build.ts"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
   },
   "dependencies": {
     "classnames": "^2.3.2",
+    "esno": "^0.16.3",
     "fs-extra": "^11.1.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "vite-plugin-react-pages": "^4.0.2"
   },
   "devDependencies": {
     "@iconify-json/ic": "1.1.4",
