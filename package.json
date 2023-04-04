@@ -1,6 +1,6 @@
 {
-  "name": "@wsondq/peacock-ui",
-  "version": "0.2.0",
+  "name": "ipeacock-ui",
+  "version": "0.3.0",
   "type": "module",
   "main": "./dist/peacockui.js",
   "scripts": {
