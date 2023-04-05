@@ -2,11 +2,12 @@
  * @Author: 悦者生存 1002783067@qq.com
  * @Date: 2023-03-25 12:06:35
  * @LastEditors: 悦者生存 1002783067@qq.com
- * @LastEditTime: 2023-03-30 22:21:03
+ * @LastEditTime: 2023-04-05 10:43:43
  * @FilePath: /peacock/packages/peacockui/vite.config.ts
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
 import react from '@vitejs/plugin-react'
+import VitePluginStyleInject from 'vite-plugin-style-inject'
 import path from 'path'
 import { fileURLToPath } from 'url'
 import Unocss from './config/unocss'
@@ -18,7 +19,8 @@ export default {
   plugins: [
     react(), // 支持react
     // 添加UnoCSS插件
-    Unocss()
+    Unocss(),
+    VitePluginStyleInject()
   ],
   build: {
     outDir: 'dist', // 打包后的文件
