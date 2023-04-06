@@ -1,5 +1,5 @@
 {
-          "name": "peacockui/Button",
+          "name": "peacockui/Loading",
           "main": "index.umd.cjs",
           "module": "index.umd.cjs"
         }
