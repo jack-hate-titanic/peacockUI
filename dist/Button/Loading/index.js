@@ -1,2 +1,0 @@
-(function(){ try {var elementStyle = document.createElement('style'); elementStyle.appendChild(document.createTextNode("")); document.head.appendChild(elementStyle);} catch(e) {console.error('vite-plugin-css-injected-by-js', e);} })();(function(){ try {var elementStyle = document.createElement('style'); elementStyle.appendChild(document.createTextNode("")); document.head.appendChild(elementStyle);} catch(e) {console.error('vite-plugin-css-injected-by-js', e);} })();
-//# sourceMappingURL=index.js.map

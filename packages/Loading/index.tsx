@@ -6,6 +6,6 @@
  * @FilePath: /peacock/packages/peacockui/packages/Loading/index.tsx
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
-import Loading from './components/Loading';
-export type { LoadingProps } from './components/Loading';
+import Loading from './Loading';
+export type { LoadingProps } from './Loading';
 export default Loading;
