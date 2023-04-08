@@ -17,7 +17,7 @@ jobs:
       - name: Install modules
         run: pnpm install
       - name: Build
-        run: pnpm build
+        run: pnpm build:components
       - name: 'Publish to the npm registry'
         uses: primer/publish@3.0.0
         env:
